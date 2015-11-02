@@ -1,0 +1,44 @@
+{
+  "name": "es6jspmAngular2",
+  "version": "1.0.0",
+  "description": "Setup for ES6, Typescript, Angular2 and jspm",
+  "main": "main.js",
+  "scripts": {
+    "test": ""
+  },
+  "keywords": [
+    "ES6",
+    "jspm",
+    "Angular2"
+  ],
+  "author": "Mike Rapp",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "file:///G:/Git/jspm/es6jspmAngular2"
+  },
+  "devDependencies": {
+    "jspm": "^0.16.14"
+  },
+  "jspm": {
+    "directories": {
+      "packages": "lib"
+    },
+    "dependencies": {
+      "@reactivex/rxjs": "npm:@reactivex/rxjs@^5.0.0-alpha.7",
+      "angular2": "npm:angular2@^2.0.0-alpha.45",
+      "core-js": "npm:core-js@^1.2.4",
+      "es6-module-loader": "npm:es6-module-loader@^0.17.8",
+      "es6-shim": "github:es-shims/es6-shim@^0.33.9",
+      "jquery": "github:components/jquery@^2.1.4",
+      "reflect-metadata": "npm:reflect-metadata@^0.1.2",
+      "systemjs": "npm:systemjs@^0.19.5",
+      "traceur": "github:jmcriffey/bower-traceur@^0.0.92",
+      "tsd": "npm:tsd@^0.6.5",
+      "zone.js": "npm:zone.js@^0.5.8"
+    },
+    "devDependencies": {
+      "typescript": "npm:typescript@^1.6.2"
+    }
+  }
+}
