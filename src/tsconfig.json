@@ -19,10 +19,18 @@
     "filesGlob": [
         "**/*.ts",
         "**/*.tsx",
-        "!.././node_modules/**",
-        "!.././lib/**"
+        ".././lib/npm/angular2@2.0.0-alpha.45/bundles/typings/angular2/*.d.ts",
+        ".././lib/npm/angular2@2.0.0-alpha.45/bundles/typings/jasmine/*.d.ts",
+        ".././typings/**",
+        "!.././node_modules/**"
     ],
     "files": [
-        "main.ts"
+        "main.ts",
+        ".././lib/npm/angular2@2.0.0-alpha.45/bundles/typings/angular2/angular2.d.ts",
+        ".././lib/npm/angular2@2.0.0-alpha.45/bundles/typings/angular2/http.d.ts",
+        ".././lib/npm/angular2@2.0.0-alpha.45/bundles/typings/angular2/router.d.ts",
+        ".././lib/npm/angular2@2.0.0-alpha.45/bundles/typings/angular2/testing.d.ts",
+        ".././lib/npm/angular2@2.0.0-alpha.45/bundles/typings/jasmine/jasmine.d.ts",
+        ".././typings/tsd.d.ts"
     ]
 }

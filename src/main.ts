@@ -1,5 +1,5 @@
-/// <reference path=".././lib/npm/angular2@2.0.0-alpha.45/bundles/typings/angular2/angular2.d.ts"/>
-"use strict";
+
+'use strict';
 //import deps
 import 'zone.js';
 import 'reflect-metadata';
@@ -17,7 +17,7 @@ import {
   selector: 'test-app'
 })
 @View({
-  template: '<h4>Hello {{name}}</h4>'
+  template: `<h4>Hello {{name}}</h4>`
 })
 class TestApp {
   name: string;
