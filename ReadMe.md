@@ -5,8 +5,9 @@ This is a setup script for a skeleton project.
  * `jspm Version 0.16.4`
  * `Typescript 1.6.2`
  * `Angular2 2.0.0-alpha.45`
+ * `NOTE: This ES6 Version Only Works In Chrome`
+ * `Setup tested with Atom and Visual Studio Code`
 
- ## NOTE: ES6 Version Only Works In Chrome
 
 
 ## Setup
@@ -54,7 +55,7 @@ This is a setup script for a skeleton project.
  8. Modify config.js (ES6 Version)
         * "typescriptOptions" section
             of the config.js file.
-        * "packages" section of the config.js file.    
+        * "packages" section of the config.js file.
         * "paths" section: note the addtion of
             "app" component.
 
